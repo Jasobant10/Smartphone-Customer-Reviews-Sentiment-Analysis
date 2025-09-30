@@ -1,0 +1,15 @@
+# Ignore data files
+# Load these from Google Drive, don't save them in the repo
+*.csv
+*.json
+*.xlsx
+
+# Ignore Python cache and environment files
+__pycache__/
+.env
+
+# Ignore Colab/Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
